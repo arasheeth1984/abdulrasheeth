@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Career portfolio of Abdul Rasheeth Jagafar Ali — Retail Technology, ERP & Digital Transformation Leader.">
+<title>Abdul Rasheeth | Retail Technology & ERP Transformation Leader</title>
+<style>
+:root{
+  --navy:#071426; --navy2:#0d1d35; --blue:#3b82f6; --cyan:#22d3ee;
+  --ink:#102033; --muted:#64748b; --bg:#f6f8fb; --white:#fff; --line:#dfe6ef;
+  --shadow:0 18px 50px rgba(7,20,38,.10); --radius:22px; --max:1180px;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
+a{color:inherit;text-decoration:none}.container{width:min(var(--max),92%);margin:auto}
+nav{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(7,20,38,.88);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.08)}
+.navin{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;color:white;letter-spacing:.2px}.logo span{color:var(--cyan)}
+.navlinks{display:flex;gap:22px;font-size:13px;color:#d9e4f2}.navlinks a:hover{color:white}
+.hero{padding:145px 0 90px;background:radial-gradient(circle at 85% 20%,rgba(59,130,246,.28),transparent 34%),linear-gradient(135deg,var(--navy),#10284a 58%,#071426);color:white;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:60px;align-items:center}
+.eyebrow{display:inline-flex;gap:8px;align-items:center;color:#9debf5;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:800}
+.hero h1{font-size:clamp(42px,6vw,76px);line-height:1.03;margin:18px 0}.hero h1 span{color:#7dd3fc}
+.hero p{font-size:19px;color:#c9d6e6;max-width:760px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{padding:13px 18px;border-radius:12px;font-weight:750;border:1px solid rgba(255,255,255,.18);display:inline-block}
+.btn.primary{background:white;color:var(--navy)}.btn.ghost{color:white}
+.profile-card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);padding:22px;border-radius:26px;box-shadow:var(--shadow)}
+.profile-photo{display:block;width:100%;height:300px;object-fit:cover;object-position:center 22%;border-radius:17px;margin-bottom:22px;border:1px solid rgba(255,255,255,.18)}
+@media(max-width:900px){.profile-photo{height:360px;object-position:center 20%;max-width:420px;margin:0 auto 22px}}
+.profile-card .big{font-size:62px;font-weight:850;line-height:1;color:#fff}.profile-card small{color:#a9bdd3}
+.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}.mini{padding:16px;border:1px solid rgba(255,255,255,.12);border-radius:16px;background:rgba(255,255,255,.05)}.mini b{display:block;font-size:23px}.mini span{font-size:11px;color:#afc0d4}
+section{padding:88px 0}.section-head{max-width:760px;margin-bottom:42px}.kicker{color:#2563eb;font-weight:850;text-transform:uppercase;letter-spacing:1.5px;font-size:12px}.section-head h2{font-size:clamp(30px,4vw,48px);line-height:1.1;margin:8px 0 12px}.section-head p{color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:-40px;position:relative}.stat{background:white;border:1px solid var(--line);padding:24px;border-radius:18px;box-shadow:var(--shadow)}.stat strong{font-size:35px;display:block;color:var(--navy)}.stat span{font-size:13px;color:var(--muted)}
+.about-grid,.split{display:grid;grid-template-columns:1fr 1fr;gap:28px}.card{background:white;border:1px solid var(--line);border-radius:var(--radius);padding:30px;box-shadow:0 10px 30px rgba(7,20,38,.05)}
+.card h3{margin-top:0}.quote{font-size:22px;line-height:1.4;font-weight:700;color:var(--navy)}
+.timeline{position:relative;margin-top:20px}.timeline:before{content:"";position:absolute;left:18px;top:0;bottom:0;width:2px;background:#d5e0ed}.tl{position:relative;padding-left:58px;margin-bottom:34px}.dot{position:absolute;left:8px;top:5px;width:22px;height:22px;border-radius:50%;background:var(--blue);border:5px solid var(--bg)}.tl .year{font-size:12px;font-weight:850;color:var(--blue);letter-spacing:1px}.tl h3{margin:4px 0}.tl p{color:var(--muted);margin:5px 0}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.pill{display:inline-block;background:#edf5ff;color:#1d4ed8;padding:6px 10px;border-radius:999px;font-size:11px;font-weight:800;margin:3px}
+.arch{background:var(--navy);color:white;border-radius:24px;padding:28px;overflow:auto}.flow{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}.node{padding:14px 18px;background:#132b4c;border:1px solid #28466a;border-radius:14px;text-align:center;min-width:145px}.arrow{color:#7dd3fc;font-size:24px}
+.project{position:relative;overflow:hidden}.project .num{font-size:12px;color:var(--blue);font-weight:850}.project h3{margin:8px 0}.project p{color:var(--muted)}.project a{font-weight:800;color:#2563eb}
+.tech{display:flex;flex-wrap:wrap;gap:8px}.tech .pill{margin:0;background:#f0f4f8;color:#1e293b}
+.table{width:100%;border-collapse:collapse;background:white;border:1px solid var(--line);border-radius:18px;overflow:hidden}.table th,.table td{text-align:left;padding:16px;border-bottom:1px solid var(--line)}.table th{background:#f0f5fa}
+.contact{background:var(--navy);color:white}.contact p{color:#c7d4e4}.contact-card{border:1px solid rgba(255,255,255,.12);padding:28px;border-radius:22px;background:rgba(255,255,255,.06)}
+footer{background:#04101f;color:#8ea2ba;padding:24px 0;font-size:13px}
+.case-study{background:#eef4fa}.case-hero{display:grid;grid-template-columns:.9fr 1.1fr;gap:24px;align-items:center}.case-visual,.arch-card{background:white;border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:0 10px 30px rgba(7,20,38,.06)}.case-visual img,.arch-card img{width:100%;height:auto;display:block}.case-copy{padding:8px 0}.case-copy h3{font-size:30px;line-height:1.15;margin:8px 0 12px}.case-copy p{color:var(--muted)}.steps{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}.step{font-size:11px;font-weight:800;background:#e3efff;color:#174ea6;padding:7px 10px;border-radius:999px}.arch-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:22px}.arch-card .caption{padding:18px}.arch-card h4{margin:0 0 5px;font-size:18px}.arch-card p{margin:0;color:var(--muted);font-size:13px}.platform{display:inline-block;font-size:10px;font-weight:900;letter-spacing:1px;color:#2563eb;margin-bottom:7px}.case-note{margin-top:22px;padding:20px 22px;border-left:4px solid var(--blue);background:white;border-radius:12px;color:#475569}.lightbox{cursor:zoom-in;transition:.2s}.lightbox:hover{transform:scale(1.01)}@media(max-width:900px){.case-hero,.arch-grid{grid-template-columns:1fr}}
+
+.video-showcase{background:#f8fbff}.video-feature{display:grid;grid-template-columns:1.08fr .92fr;gap:22px;align-items:stretch;margin-bottom:22px}.video-card{background:white;border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 12px 34px rgba(7,20,38,.07)}.video-card video{width:100%;aspect-ratio:16/9;display:block;background:#071426;object-fit:cover}.video-copy{padding:26px}.video-copy h3{margin:5px 0 10px;font-size:25px;line-height:1.2}.video-copy p{color:var(--muted);margin:0 0 14px}.video-tag{display:inline-block;font-size:10px;font-weight:900;letter-spacing:1.1px;color:#1d4ed8;background:#eaf2ff;padding:6px 9px;border-radius:999px;margin:2px}.spar-brand{display:flex;align-items:center;gap:14px;margin-bottom:14px}.spar-brand img{width:58px;height:58px;object-fit:contain;background:white;border:1px solid var(--line);border-radius:12px;padding:5px}.video-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.video-note{margin-top:20px;color:#64748b;font-size:13px}.achievement-highlight{margin-top:22px;background:linear-gradient(135deg,#071426,#12335a);color:white;border-radius:22px;padding:26px;display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:center}.achievement-highlight img{width:74px;height:74px;object-fit:contain;background:white;border-radius:14px;padding:6px}.achievement-highlight h3{margin:0 0 6px}.achievement-highlight p{margin:0;color:#c8d7e7}@media(max-width:900px){.video-feature,.video-grid{grid-template-columns:1fr}.achievement-highlight{grid-template-columns:1fr}.achievement-highlight img{width:64px;height:64px}}
+.mobile{display:none}
+@media(max-width:900px){.hero-grid,.about-grid,.split{grid-template-columns:1fr}.grid3{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr 1fr}.navlinks{display:none}.mobile{display:block;color:white}.hero{padding-top:120px}}
+@media(max-width:600px){section{padding:65px 0}.grid3,.grid2,.stats{grid-template-columns:1fr}.hero h1{font-size:43px}.hero p{font-size:17px}.profile-card .big{font-size:48px}}
+
+.gcc-section{background:linear-gradient(135deg,#071426,#0d2b4d);color:white}.gcc-section .section-head p{color:#b8c9db}.gcc-layout{display:grid;grid-template-columns:1.65fr .85fr;gap:22px;align-items:stretch}.gcc-map{position:relative;border-radius:22px;overflow:hidden;border:1px solid rgba(125,211,252,.28);box-shadow:0 18px 45px rgba(0,0,0,.22);min-height:420px;background:#09203a}.gcc-map>img.map-bg{width:100%;height:100%;object-fit:cover;display:block}.map-pin{position:absolute;width:58px;filter:drop-shadow(0 8px 8px rgba(0,0,0,.35));transform:translate(-50%,-90%)}.pin-qatar{left:34%;top:55%}.pin-ksa{left:12%;top:49%}.pin-uae{left:79%;top:76%}.map-label{position:absolute;background:rgba(7,20,38,.88);border:1px solid #38bdf8;border-radius:13px;padding:9px 12px;font-size:12px;line-height:1.35;box-shadow:0 8px 20px rgba(0,0,0,.2)}.label-qatar{left:39%;top:46%}.label-ksa{left:6%;top:58%}.label-uae{right:3%;top:57%}.map-label b{display:block;color:#7dd3fc;font-size:13px}.gcc-journey{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:22px;padding:24px}.gcc-item{display:grid;grid-template-columns:42px 1fr;gap:13px;padding:17px 0;border-bottom:1px solid rgba(255,255,255,.1)}.gcc-item:last-child{border-bottom:0}.gcc-item img{width:38px;height:38px;object-fit:contain}.gcc-item h3{margin:0 0 3px;font-size:17px}.gcc-item .date{color:#7dd3fc;font-size:12px;font-weight:800}.gcc-item p{margin:5px 0 0;color:#c8d7e7;font-size:13px}.gcc-foot{margin-top:18px;color:#9debf5;font-weight:700;font-size:13px}@media(max-width:900px){.gcc-layout{grid-template-columns:1fr}.gcc-map{min-height:330px}.map-pin{width:44px}.map-label{font-size:10px;padding:7px 9px}.label-qatar{left:39%;top:43%}.label-ksa{left:3%;top:58%}.label-uae{right:2%;top:57%}}
+
+.bi-section{background:#f8fbff}.bi-intro{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:24px}.bi-case{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:0 12px 34px rgba(7,20,38,.06)}.bi-case h3{margin:5px 0 8px;font-size:24px}.bi-case p{color:var(--muted);margin:0}.bi-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}.bi-shot{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 10px 28px rgba(7,20,38,.06)}.bi-shot img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}.bi-shot div{padding:14px 16px}.bi-shot b{display:block;margin-bottom:4px}.bi-shot span{font-size:12px;color:var(--muted)}.bi-stack{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}.bi-stack span{font-size:10px;font-weight:900;letter-spacing:.7px;background:#eaf2ff;color:#1d4ed8;padding:6px 9px;border-radius:999px}@media(max-width:900px){.bi-intro,.bi-gallery{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<nav><div class="container navin">
+  <a class="logo" href="#home">ABDUL <span>RASHEETH</span></a>
+  <div class="navlinks">
+    <a href="#about">About</a><a href="#journey">Journey</a><a href="#gcc">GCC Map</a><a href="#projects">Projects</a><a href="#spar-videos">Videos</a><a href="#isham-case">Case Study</a><a href="#bi">Power BI</a>
+    <a href="#technology">Technology</a><a href="#transformation">Transformation</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+  </div><span class="mobile">☰</span>
+</div></nav>
+
+<header class="hero" id="home"><div class="container hero-grid">
+  <div>
+    <div class="eyebrow">Retail Technology • ERP • Digital Transformation</div>
+    <h1>Connecting <span>Business, Process & Technology.</span></h1>
+    <p>Retail Technology, ERP & Digital Transformation Leader with 15+ years of GCC experience across Retail, FMCG, Distribution, F&amp;B and multi-business enterprise environments.</p>
+    <div class="buttons"><a class="btn primary" href="#projects">Explore My Projects</a><a class="btn ghost" href="#contact">Let's Connect</a></div>
+  </div>
+  <div class="profile-card">
+    <img class="profile-photo" src="assets/profile/abdul-rasheeth-profile.jpg" alt="Professional portrait of Abdul Rasheeth Jagafar Ali" loading="eager">
+    <div class="big">15+</div><small>Years of professional technology experience</small>
+    <div class="mini-grid">
+      <div class="mini"><b>33</b><span>GCC Stores Managed</span></div>
+      <div class="mini"><b>17</b><span>New Store Implementations</span></div>
+      <div class="mini"><b>7+</b><span>Years SAP IS-Retail</span></div>
+      <div class="mini"><b>8+</b><span>Years Power BI</span></div>
+    </div>
+  </div>
+</div></header>
+
+<main>
+<section style="padding-top:0"><div class="container stats">
+  <div class="stat"><strong>3</strong><span>GCC Markets — UAE, KSA & Qatar</span></div>
+  <div class="stat"><strong>12+</strong><span>Years ERP / POS Implementation</span></div>
+  <div class="stat"><strong>15+</strong><span>Years SQL / Database Experience</span></div>
+  <div class="stat"><strong>8+</strong><span>Years Business Intelligence / Power BI</span></div>
+</div></section>
+
+<section id="about"><div class="container">
+  <div class="section-head"><div class="kicker">01 / About Me</div><h2>From software development to enterprise transformation.</h2><p>A career built around understanding how businesses operate and translating that understanding into scalable technology solutions.</p></div>
+  <div class="about-grid">
+    <div class="card"><p class="quote">“My strength is connecting business operations, people, processes and technology — from the retail checkout to the enterprise boardroom.”</p>
+      <p>My career began in software development and evolved through IT administration, database management, Retail IT, ERP/POS implementation, SAP IS-Retail, Oracle ERP, Business Intelligence, solution architecture and strategic IT leadership.</p>
+      <p>Today my focus is enterprise technology transformation: assessing business processes, identifying gaps, designing solution architecture, evaluating platforms, managing implementation partners and improving operational performance.</p>
+    </div>
+    <div class="card"><h3>Professional Focus</h3>
+      <div class="tech"><span class="pill">ERP Strategy</span><span class="pill">Retail Technology</span><span class="pill">POS</span><span class="pill">Solution Architecture</span><span class="pill">Digital Transformation</span><span class="pill">Business Process Improvement</span><span class="pill">Power BI</span><span class="pill">Data & Integration</span><span class="pill">Vendor Management</span><span class="pill">IT Operations</span></div>
+      <hr style="border:0;border-top:1px solid var(--line);margin:25px 0">
+      <h3>Industries</h3><p>Retail & FMCG • Distribution & Wholesale • F&amp;B • Catering • Vending • Facility Management • Trading • Real Estate</p>
+    </div>
+  </div>
+</div></section>
+
+<section id="journey"><div class="container">
+  <div class="section-head"><div class="kicker">02 / Career Journey</div><h2>A career built through transformation.</h2><p>Each chapter expanded the scope from technical support to enterprise leadership.</p></div>
+  <div class="timeline">
+    <div class="tl"><span class="dot"></span><div class="year">2001 — 2007</div><h3>Academic Foundation</h3><p>B.Sc. Computer Science followed by Master of Computer Applications at Jamal Mohamed College, Tiruchirappalli, Tamil Nadu, India.</p></div>
+    <div class="tl"><span class="dot"></span><div class="year">2008 — 2009</div><h3>Software Developer — Pathfinder Solution, Chennai</h3><p>Started professional career in .NET development using VB, ASP and C#.</p></div>
+    <div class="tl"><span class="dot"></span><div class="year">2009 — 2012</div><h3>Retail IT & DBA → IT Manager — Regency Group, UAE / KSA</h3><p>Managed ERP/POS operations, databases, backups, user access, server health, LAN/WAN/VPN, retail workflows and business reporting across multiple branches. Led the Dammam, KSA hypermarket launch in March 2012, including infrastructure, ERP/POS, user access and 39 checkout stations, with a 100% functional rollout and zero post-launch disruptions.</p></div>
+    <div class="tl"><span class="dot"></span><div class="year">2013 — 2017</div><h3>IT Manager — Food Palace / Transind Holding, Qatar</h3><p>Promoted after leading a full ERP migration across multi-chain retail and wholesale operations. Managed ERP, POS and database administration, GAP analysis, SIT/UAT, user training, vendor contracts, infrastructure and reporting, while independently transitioning legacy data for a new retail store launch.</p></div>
+    <div class="tl"><span class="dot"></span><div class="year">2017</div><h3>IT Manager — Khayrat Al Doha, Qatar</h3><p>Led the launch of a large-scale hypermarket in May 2017, coordinating ERP/POS implementation, system architecture, database setup, infrastructure, reporting, user training and operational readiness.</p></div>
+    <div class="tl"><span class="dot"></span><div class="year">2017 — 2025</div><h3>IT Manager — SPAR Qatar</h3><p>Directed end-to-end IT infrastructure and retail systems across 7 SPAR hypermarkets and supermarkets. Managed SAP IS-Retail/POS integration, ESL, scales, E-commerce/Omni Channel, POS operations, databases, Power BI, servers, IPVPN/LAN/WAN, vendor SLAs, implementation projects and team leadership. Delivered store readiness, testing, UAT, training and retail technology innovation.</p></div>
+    <div class="tl"><span class="dot"></span><div class="year">Nov 2025 — Present</div><h3>Group IT Manager — Isham Holding, Qatar</h3><p>Leading enterprise IT assessment, business process analysis, ERP/POS/E-commerce strategy, solution architecture and digital transformation across multiple business divisions.</p></div>
+  </div>
+</div></section>
+
+<section id="gcc" class="gcc-section"><div class="container">
+  <div class="section-head"><div class="kicker" style="color:#7dd3fc">02A / GCC Career Map</div><h2>A GCC journey of technology, operations and transformation.</h2><p>Verified career locations across the UAE, Saudi Arabia and Qatar — from retail IT and ERP/POS operations to enterprise technology leadership.</p></div>
+  <div class="gcc-layout">
+    <div class="gcc-map">
+      <img class="map-bg" src="assets/gcc/gcc-map.png" alt="GCC career map covering UAE, Saudi Arabia and Qatar">
+      <img class="map-pin pin-ksa" src="assets/gcc/ksa-pin.png" alt="Saudi Arabia flag pin"><div class="map-label label-ksa"><b>Saudi Arabia</b>Dammam Project · 2011–2012</div>
+      <img class="map-pin pin-qatar" src="assets/gcc/qatar-pin.png" alt="Qatar flag pin"><div class="map-label label-qatar"><b>Qatar</b>2013–Present · IT Manager → Group IT Manager</div>
+      <img class="map-pin pin-uae" src="assets/gcc/uae-pin.png" alt="UAE flag pin"><div class="map-label label-uae"><b>United Arab Emirates</b>2009–2012 · Retail IT &amp; DBA</div>
+    </div>
+    <div class="gcc-journey">
+      <div class="gcc-item"><img src="assets/gcc/uae-pin.png" alt="UAE"><div><div class="date">2009 — 2012</div><h3>United Arab Emirates</h3><p>Regency Group · Retail IT, ERP/POS operations, database administration, infrastructure and multi-branch support.</p></div></div>
+      <div class="gcc-item"><img src="assets/gcc/ksa-pin.png" alt="Saudi Arabia"><div><div class="date">2011 — 2012</div><h3>Saudi Arabia</h3><p>Dammam hypermarket project · End-to-end infrastructure and ERP/POS setup, including 39 checkout stations and go-live delivery.</p></div></div>
+      <div class="gcc-item"><img src="assets/gcc/qatar-pin.png" alt="Qatar"><div><div class="date">2013 — Present</div><h3>Qatar</h3><p>Food Palace, Khayrat Al Doha, SPAR Qatar and Isham Holding · Progression from IT Manager to Group IT Manager and enterprise transformation leadership.</p></div></div>
+      <div class="gcc-foot">UAE → KSA → Qatar · One GCC career, expanding scope and responsibility.</div>
+    </div>
+  </div>
+</div></section>
+
+<section id="transformation"><div class="container">
+  <div class="section-head"><div class="kicker">03 / Transformation Method</div><h2>Business problem → measurable technology solution.</h2><p>A practical transformation framework used across ERP, POS, digital platforms and enterprise IT.</p></div>
+  <div class="arch"><div class="flow">
+    <div class="node">01<br><b>Understand</b><br><small>Business & Operations</small></div><div class="arrow">→</div>
+    <div class="node">02<br><b>Analyze</b><br><small>Process & Gap Analysis</small></div><div class="arrow">→</div>
+    <div class="node">03<br><b>Design</b><br><small>BRD & Architecture</small></div><div class="arrow">→</div>
+    <div class="node">04<br><b>Evaluate</b><br><small>ERP / Technology</small></div><div class="arrow">→</div>
+    <div class="node">05<br><b>Transform</b><br><small>Implement & Integrate</small></div><div class="arrow">→</div>
+    <div class="node">06<br><b>Measure</b><br><small>BI & KPI</small></div><div class="arrow">→</div>
+    <div class="node">07<br><b>Improve</b><br><small>Continuous Improvement</small></div>
+  </div></div>
+  <div class="grid3" style="margin-top:22px">
+    <div class="card"><h3>Business Process</h3><p>Identify manual, fragmented and inefficient processes; standardize, automate and integrate them.</p></div>
+    <div class="card"><h3>Enterprise Architecture</h3><p>Design connected ERP, POS, E-commerce, WMS, BI and business application ecosystems.</p></div>
+    <div class="card"><h3>Commercial Governance</h3><p>Develop scope, CAPEX/OPEX, licensing, implementation budgets and total-cost considerations.</p></div>
+  </div>
+</div></section>
+
+<section><div class="container">
+  <div class="section-head"><div class="kicker">03A / Career Capabilities</div><h2>What I have delivered across the journey.</h2><p>These capabilities consolidate the responsibilities and outcomes documented across Regency Group, Food Palace, Khayrat Al Doha and SPAR Qatar.</p></div>
+  <div class="grid3">
+    <div class="card"><h3>ERP & Business Operations</h3><p>Purchase, Sales, Inventory, GL, AP, AR, WMS, procurement, master data, pricing, promotions, STOs and operational workflows.</p></div>
+    <div class="card"><h3>Implementation & Delivery</h3><p>BRD/requirements, GAP analysis, feasibility, scope, SIT/UAT, data migration, configuration, deployment, training and go-live readiness.</p></div>
+    <div class="card"><h3>Technical Operations</h3><p>Servers, databases, LAN/WAN/IPVPN, firewalls, POS hardware, scales, ESL, backups, disaster recovery and business continuity.</p></div>
+    <div class="card"><h3>Data & Reporting</h3><p>SQL-based reporting and Power BI dashboards covering sales, stock movement, procurement, loyalty, promotions and comparative performance.</p></div>
+    <div class="card"><h3>Vendor & Commercial Management</h3><p>Vendor evaluation, SLA governance, procurement, contract management, partner selection, resource planning and implementation cost optimization.</p></div>
+    <div class="card"><h3>Training & User Support</h3><p>ERP/POS user training, documentation, L1–L3 support, technical mentoring, adoption and cross-functional stakeholder support.</p></div>
+  </div>
+</div></section>
+
+<section id="projects"><div class="container">
+  <div class="section-head"><div class="kicker">04 / Selected Projects</div><h2>Transformation projects that shaped the career.</h2></div>
+  <div class="grid2">
+    <div class="card project"><div class="num">PROJECT 01</div><h3>Dammam Retail Store Launch — KSA</h3><p>Led a large-format retail implementation covering ERP, POS, store technology, setup, testing, training and go-live.</p><a href="#contact">Project case study →</a></div>
+    <div class="card project"><div class="num">PROJECT 02</div><h3>Legacy Oracle ERP Migration — Qatar</h3><p>Managed data cleaning, migration, implementation and rollout from a legacy Oracle Pioneer environment to a new ERP platform.</p><a href="#contact">Project case study →</a></div>
+    <div class="card project"><div class="num">PROJECT 03</div><h3>SAP IS-Retail + DN POS — SPAR Qatar</h3><p>Implemented SAP IS-Retail/S4HANA, Diebold Nixdorf POS and integration architecture with supporting retail technologies.</p><a href="#contact">Project case study →</a></div>
+    <div class="card project"><div class="num">PROJECT 04</div><h3>Retail Technology Innovation — SPAR</h3><p>Introduced self-checkout, ESL, mobile inventory/label printing, digital raffle and thermal camera solutions.</p><a href="#contact">Project case study →</a></div>
+    <div class="card project"><div class="num">PROJECT 05</div><h3>Power BI Retail Analytics</h3><p>Developed KPI dashboards, visualization and detailed operational reports to support management decision-making.</p><a href="#contact">Project case study →</a></div>
+    <div class="card project"><div class="num">PROJECT 06</div><h3>Isham Enterprise IT Transformation</h3><p>Assessed business processes, ERP/POS/E-commerce platforms, technology gaps and enterprise architecture while shaping a unified transformation roadmap.</p><a href="#isham-case">View case study →</a></div>
+  </div>
+</div></section>
+
+<section id="spar-videos" class="video-showcase"><div class="container">
+  <div class="section-head"><div class="kicker">05A / Featured Career Achievements</div><h2>SPAR Qatar — Retail Technology Innovation in Action.</h2><p>Selected video evidence from customer-facing retail technology initiatives and new-store rollouts delivered during my SPAR Qatar journey.</p></div>
+  <div class="video-feature">
+    <div class="video-card"><video controls preload="metadata" poster="assets/videos/self-checkout.jpg"><source src="assets/videos/spar-self-checkout.mp4" type="video/mp4">Your browser does not support HTML5 video.</video></div>
+    <div class="video-card"><div class="video-copy"><div class="spar-brand"><img src="assets/logos/spar-qatar.png" alt="SPAR Qatar logo"><div><span class="video-tag">FEATURED ACHIEVEMENT</span><h3>Self-Checkout Solution — SPAR Qatar</h3></div></div><p>Led the implementation and successful launch of a pioneering Self-Checkout solution at SPAR Qatar — one of the most important retail technology achievements of my career. The initiative strengthened the customer self-service journey while extending the existing store technology ecosystem.</p><div><span class="video-tag">Self-Checkout</span><span class="video-tag">POS</span><span class="video-tag">Retail Technology</span><span class="video-tag">System Integration</span><span class="video-tag">Digital Transformation</span></div></div></div>
+  </div>
+  <div class="achievement-highlight"><img src="assets/logos/spar-qatar.png" alt="SPAR Qatar"><div><h3>Electronic Shelf Label (ESL) Implementation &amp; New Store Rollout</h3><p>Led ESL implementation as part of SPAR Qatar's retail digitalization program, including deployment during the opening of four new stores. The rollout supported centralized pricing accuracy, store readiness and operational efficiency across the retail environment.</p></div></div>
+  <div class="video-grid" style="margin-top:18px">
+    <div class="video-card"><video controls preload="metadata" poster="assets/videos/qanat-quartier.jpg"><source src="assets/videos/spar-qanat-quartier.mp4" type="video/mp4">Your browser does not support HTML5 video.</video><div class="video-copy"><span class="video-tag">NEW STORE ROLLOUT</span><h3>SPAR Qanat Quartier</h3><p>Store-launch video associated with the wider SPAR Qatar technology rollout, including ESL and store-system readiness activities.</p></div></div>
+    <div class="video-card"><video controls preload="metadata" poster="assets/videos/porto-arabia.jpg"><source src="assets/videos/spar-porto-arabia.mp4" type="video/mp4">Your browser does not support HTML5 video.</video><div class="video-copy"><span class="video-tag">NEW STORE ROLLOUT</span><h3>SPAR Porto Arabia</h3><p>Store-launch video highlighting the retail environment supported through SPAR Qatar's new-store technology deployment program.</p></div></div>
+  </div>
+  <div class="video-note">Videos are embedded with manual playback only to keep the portfolio professional and avoid unnecessary autoplay or bandwidth use.</div>
+</div></section>
+
+<section id="isham-case" class="case-study"><div class="container">
+  <div class="section-head"><div class="kicker">05 / Flagship Case Study</div><h2>Isham Holding — Group Enterprise Digital Transformation & Solution Architecture</h2><p>A multi-business transformation case study covering current-state assessment, technology gaps, enterprise platform evaluation, target architecture and division-specific solution designs across F&amp;B, catering, canteen, vending and facility-management operations.</p></div>
+  <div class="case-hero">
+    <div class="case-copy"><div class="platform">CURRENT STATE → TARGET STATE</div><h3>From fragmented systems to a unified enterprise architecture.</h3><p>The engagement began with assessment of existing systems and operational challenges, including fragmented POS/ERP environments, manual data handling, limited integration and gaps affecting timely management visibility.</p><div class="steps"><span class="step">Assessment</span><span class="step">Gap Analysis</span><span class="step">Business Requirements</span><span class="step">Platform Evaluation</span><span class="step">Architecture</span><span class="step">Integration</span><span class="step">Roadmap</span></div><p><strong>My role:</strong> Group IT Manager / Enterprise Solution Architecture — business-process assessment, solution evaluation, architecture design, integration planning, commercial/cost considerations and transformation roadmap development.</p></div>
+    <div class="case-visual"><a href="assets/isham/current-assessment.png" target="_blank"><img class="lightbox" src="assets/isham/current-assessment.png" alt="Isham Holding Company IT Assessment Report"></a></div>
+  </div>
+  <div class="arch-grid">
+    <div class="arch-card"><a href="assets/isham/gaps-challenges.png" target="_blank"><img class="lightbox" src="assets/isham/gaps-challenges.png" alt="Identified IT gaps and challenges"></a><div class="caption"><span class="platform">ASSESSMENT</span><h4>IT Gaps & Challenges</h4><p>Visual summary of the fragmented environment and the operational/reporting challenges that shaped the transformation requirements.</p></div></div>
+    <div class="arch-card"><a href="assets/isham/odoo-unified.png" target="_blank"><img class="lightbox" src="assets/isham/odoo-unified.png" alt="Isham Holding unified business solution on Odoo"></a><div class="caption"><span class="platform">ODOO ARCHITECTURE</span><h4>Unified Group Business Platform</h4><p>Group-level target concept connecting multiple brands, centralized operations, warehouse/inventory, finance and integration channels.</p></div></div>
+    <div class="arch-card"><a href="assets/isham/kingdee-unified.png" target="_blank"><img class="lightbox" src="assets/isham/kingdee-unified.png" alt="Isham Group unified business solution on Kingdee"></a><div class="caption"><span class="platform">KINGDEE ARCHITECTURE</span><h4>Alternative Unified Enterprise Architecture</h4><p>Platform architecture developed to evaluate a centralized ERP ecosystem across the group's operating divisions and brands.</p></div></div>
+    <div class="arch-card"><a href="assets/isham/qlub-integration.png" target="_blank"><img class="lightbox" src="assets/isham/qlub-integration.png" alt="Qlub digital menu and payment integration architecture"></a><div class="caption"><span class="platform">API & DIGITAL PAYMENTS</span><h4>Qlub ↔ POS Integration</h4><p>Digital menu and payment journey illustrating API integration between customer-facing services, POS and payment processing.</p></div></div>
+    <div class="arch-card"><a href="assets/isham/ivend-kingdee.png" target="_blank"><img class="lightbox" src="assets/isham/ivend-kingdee.png" alt="IVEND vending enterprise solution structure"></a><div class="caption"><span class="platform">VENDING</span><h4>IVEND Enterprise Solution</h4><p>Front-end vending, mobile warehouse/truck operations and back-office ERP architecture.</p></div></div>
+    <div class="arch-card"><a href="assets/isham/facility-kingdee.png" target="_blank"><img class="lightbox" src="assets/isham/facility-kingdee.png" alt="Integral Facility Management ERP solution architecture"></a><div class="caption"><span class="platform">FACILITY MANAGEMENT</span><h4>Integral Facility Management</h4><p>ERP architecture adapted to manpower, maintenance, cleaning and facility-service workflows.</p></div></div>
+    <div class="arch-card"><a href="assets/isham/kids-kanteen-odoo.png" target="_blank"><img class="lightbox" src="assets/isham/kids-kanteen-odoo.png" alt="Kids Kanteen Odoo solution architecture"></a><div class="caption"><span class="platform">CANTEEN / EDUCATION</span><h4>Kids Kanteen</h4><p>Odoo-based architecture for central production, school/canteen operations, users and supporting business processes.</p></div></div>
+    <div class="arch-card"><a href="assets/isham/catering-odoo.png" target="_blank"><img class="lightbox" src="assets/isham/catering-odoo.png" alt="Isham Services catering Odoo architecture"></a><div class="caption"><span class="platform">CATERING</span><h4>Isham Services — Corporate & Industrial</h4><p>Central back-office and multi-site catering architecture with production, inventory and finance integration.</p></div></div>
+    <div class="arch-card"><a href="assets/isham/lithos-kingdee.png" target="_blank"><img class="lightbox" src="assets/isham/lithos-kingdee.png" alt="Lithos POS and Kingdee ERP integration architecture"></a><div class="caption"><span class="platform">POS ↔ ERP INTEGRATION</span><h4>Lithos POS ↔ Kingdee ERP</h4><p>End-to-end integration design linking store operations, API middleware, warehouse and head-office ERP processes.</p></div></div>
+    <div class="arch-card"><a href="assets/isham/village-odoo.png" target="_blank"><img class="lightbox" src="assets/isham/village-odoo.png" alt="The Village Odoo solution architecture"></a><div class="caption"><span class="platform">F&amp;B / RESTAURANT</span><h4>Flavors — The Village</h4><p>Restaurant architecture connecting branches, central kitchen, sales/service flow, finance and digital channels.</p></div></div>
+  </div>
+  <div class="case-note"><strong>Portfolio note:</strong> Architectures are presented as assessment, proposed/evaluated or target designs. Implementation status should be described separately for each solution so the portfolio clearly distinguishes architecture work from production deployment.</div>
+</div></section>
+
+
+<section id="bi" class="bi-section"><div class="container">
+  <div class="section-head"><div class="kicker">06 / Business Intelligence &amp; Data Analytics</div><h2>From operational systems to management insight.</h2><p>Selected Power BI work demonstrating 8+ years of BI experience across retail, restaurant, catering and multi-business environments. Only representative dashboards are shown to keep the portfolio focused.</p></div>
+  <div class="bi-intro">
+    <div class="bi-case"><div class="kicker">SPAR QATAR / RETAIL ANALYTICS</div><h3>Retail Business Intelligence &amp; Power BI Analytics</h3><p>Designed management reporting across multi-store retail operations, covering executive sales KPIs, store and category performance, product profitability, customer/channel analysis and comparative trends.</p><div class="bi-stack"><span>Power BI</span><span>SQL / Database</span><span>ERP &amp; POS Data</span><span>Retail KPIs</span><span>Profitability</span><span>Management Reporting</span></div></div>
+    <div class="bi-case"><div class="kicker">ISHAM HOLDING / MULTI-BUSINESS ANALYTICS</div><h3>Restaurant, Aggregator &amp; Catering Performance Analytics</h3><p>Developed management dashboards for restaurant and catering operations, including brand/site sales, YTD/MTD performance, online aggregator contribution, order analysis, monthly trends and operational KPIs.</p><div class="bi-stack"><span>Power BI</span><span>F&amp;B Analytics</span><span>Aggregator Sales</span><span>Multi-Brand KPIs</span><span>Trend Analysis</span><span>Decision Support</span></div></div>
+  </div>
+  <div class="bi-gallery">
+    <div class="bi-shot"><img src="assets/bi/spar/executive-sales.jpg" alt="SPAR Qatar executive sales Power BI dashboard"><div><b>SPAR — Executive Sales</b><span>Consolidated retail performance and management KPIs.</span></div></div>
+    <div class="bi-shot"><img src="assets/bi/spar/store-performance.jpg" alt="SPAR Qatar store performance Power BI dashboard"><div><b>SPAR — Store Performance</b><span>Multi-store sales and comparative performance analysis.</span></div></div>
+    <div class="bi-shot"><img src="assets/bi/spar/category-analysis.jpg" alt="SPAR Qatar category analysis Power BI dashboard"><div><b>SPAR — Category Analytics</b><span>Department, category and merchandise performance.</span></div></div>
+    <div class="bi-shot"><img src="assets/bi/spar/product-profitability.jpg" alt="SPAR Qatar product profitability Power BI dashboard"><div><b>SPAR — Product &amp; Profitability</b><span>SKU-level sales, margin and product performance insight.</span></div></div>
+    <div class="bi-shot"><img src="assets/bi/isham/restaurant-executive.jpg" alt="Isham Holding restaurant division Power BI dashboard"><div><b>Isham — Restaurant Division</b><span>Multi-brand and multi-site sales performance.</span></div></div>
+    <div class="bi-shot"><img src="assets/bi/isham/aggregator-performance.jpg" alt="Isham Holding online aggregator Power BI dashboard"><div><b>Isham — Online Aggregators</b><span>Channel contribution, orders and aggregator sales performance.</span></div></div>
+    <div class="bi-shot"><img src="assets/bi/isham/catering-executive.jpg" alt="Isham Holding catering Power BI dashboard"><div><b>Isham — Catering Services</b><span>Selected management view for catering sales and operations.</span></div></div>
+    <div class="bi-shot"><img src="assets/bi/isham/restaurant-trends.jpg" alt="Isham Holding restaurant sales trends Power BI dashboard"><div><b>Isham — Sales Trends</b><span>Daily/monthly trends and branch-level analysis.</span></div></div>
+    <div class="bi-shot"><img src="assets/bi/spar/trend-comparison.jpg" alt="SPAR Qatar comparative Power BI dashboard"><div><b>SPAR — Comparative Trends</b><span>Period and operational performance comparison.</span></div></div>
+  </div>
+</div></section>
+
+<section id="technology"><div class="container">
+  <div class="section-head"><div class="kicker">07 / Technology Landscape</div><h2>Technology across the retail value chain.</h2></div>
+  <div class="grid3">
+    <div class="card"><h3>ERP</h3><div class="tech"><span class="pill">SAP IS-Retail / S4HANA</span><span class="pill">Oracle ERP / Pioneer</span><span class="pill">D365 F&O</span><span class="pill">Odoo</span></div></div>
+    <div class="card"><h3>POS & Store Technology</h3><div class="tech"><span class="pill">Diebold Nixdorf</span><span class="pill">TP.net / Vynamic</span><span class="pill">Oracle Pioneer</span><span class="pill">Mycom</span><span class="pill">Self Checkout</span><span class="pill">ESL</span><span class="pill">Weighing</span></div></div>
+    <div class="card"><h3>Data & Integration</h3><div class="tech"><span class="pill">Power BI</span><span class="pill">SQL Server</span><span class="pill">Oracle DB</span><span class="pill">PostgreSQL</span><span class="pill">API</span><span class="pill">Web Services</span><span class="pill">IDoc</span></div></div>
+    <div class="card"><h3>Digital Platforms</h3><div class="tech"><span class="pill">E-commerce</span><span class="pill">Online Aggregators</span><span class="pill">Mobile Apps</span><span class="pill">CRM & Loyalty</span></div></div>
+    <div class="card"><h3>Infrastructure</h3><div class="tech"><span class="pill">Servers</span><span class="pill">Firewall</span><span class="pill">IPVPN</span><span class="pill">Backup & Recovery</span><span class="pill">CCTV</span></div></div>
+    <div class="card"><h3>Security</h3><div class="tech"><span class="pill">Sophos</span><span class="pill">Palo Alto</span><span class="pill">Trend Micro</span><span class="pill">Security Governance</span></div></div>
+  </div>
+</div></section>
+
+<section id="architecture"><div class="container">
+  <div class="section-head"><div class="kicker">08 / Solution Architecture</div><h2>Connecting the enterprise.</h2><p>My approach is to design technology around the business operating model rather than around isolated applications.</p></div>
+  <div class="arch"><div class="flow">
+    <div class="node">Business Strategy</div><div class="arrow">→</div><div class="node">Business Processes</div><div class="arrow">→</div><div class="node">BRD / Gap Analysis</div><div class="arrow">→</div><div class="node">Enterprise Architecture</div>
+  </div><div style="height:20px"></div><div class="flow">
+    <div class="node">ERP</div><div class="node">POS</div><div class="node">E-Commerce</div><div class="node">WMS</div><div class="node">CRM</div><div class="node">BI</div>
+  </div><div style="height:20px"></div><div class="flow"><div class="node">Integration & APIs</div><div class="arrow">→</div><div class="node">Data & Analytics</div><div class="arrow">→</div><div class="node">Business Insights</div></div></div>
+</div></section>
+
+<section id="achievements"><div class="container">
+  <div class="section-head"><div class="kicker">09 / Achievements</div><h2>Career at a glance.</h2></div>
+  <table class="table">
+    <tr><th>Area</th><th>Experience / Achievement</th></tr>
+    <tr><td>GCC Retail IT</td><td>End-to-end retail IT solutions across 33 stores in UAE, KSA and Qatar.</td></tr>
+    <tr><td>New Store Delivery</td><td>17 new retail stores implemented and launched according to the supplied career record.</td></tr>
+    <tr><td>Self-Checkout Innovation</td><td>Led the implementation and launch of a pioneering Self-Checkout solution at SPAR Qatar.</td></tr>
+    <tr><td>ESL & New Store Rollout</td><td>Led Electronic Shelf Label implementation, including deployment during the opening of 4 new SPAR stores.</td></tr>
+    <tr><td>SAP Retail</td><td>7+ years in SAP Retail S/4HANA environment and DN POS solutions.</td></tr>
+    <tr><td>Oracle ERP/POS</td><td>7+ years of experience with Oracle-based ERP/POS products.</td></tr>
+    <tr><td>ERP/POS Implementation</td><td>12+ years of implementation experience.</td></tr>
+    <tr><td>Power BI &amp; Analytics</td><td>8+ years designing management dashboards and analytics across retail, restaurant, catering and multi-business operations.</td></tr>
+    <tr><td>Database</td><td>15+ years across SQL Server and Oracle database environments.</td></tr>
+  </table>
+</div></section>
+
+<section><div class="container">
+  <div class="section-head"><div class="kicker">10 / Leadership</div><h2>How I contribute at leadership level.</h2></div>
+  <div class="grid3">
+    <div class="card"><h3>Business Partnership</h3><p>Translate business requirements into scalable technology solutions and optimized processes.</p></div>
+    <div class="card"><h3>ERP Leadership</h3><p>Shape ERP strategy, platform assessment, implementation, integration and optimization.</p></div>
+    <div class="card"><h3>Vendor Management</h3><p>Coordinate ERP vendors, implementation partners and technology providers.</p></div>
+    <div class="card"><h3>People Leadership</h3><p>Build teams, mentor users and technical staff, and connect business and technology stakeholders.</p></div>
+    <div class="card"><h3>Continuous Improvement</h3><p>Reduce manual work, standardize processes and improve operational efficiency through technology.</p></div>
+    <div class="card"><h3>Governance</h3><p>Balance solution quality, security, scalability, cost, delivery and business continuity.</p></div>
+  </div>
+</div></section>
+
+<section id="contact" class="contact"><div class="container">
+  <div class="section-head"><div class="kicker" style="color:#7dd3fc">11 / Contact</div><h2 style="color:white">Let's discuss technology, transformation and opportunities.</h2><p>For recruitment, consulting, ERP/POS transformation or technology leadership opportunities, connect with me.</p></div>
+  <div class="contact-card">
+    <h3>Abdul Rasheeth Jagafar Ali</h3>
+    <p>Retail Technology • ERP • POS • Digital Transformation • Business Intelligence • Solution Architecture</p>
+    <div style="margin:22px 0 24px;line-height:1.9">
+      <div><strong>E-Mail:</strong> <a href="mailto:rasheeth.mca@gmail.com" style="color:white">rasheeth.mca@gmail.com</a></div>
+      <div><strong>Mobile:</strong> <a href="tel:+97433374751" style="color:white">00974-33374751</a></div>
+      <div><strong>Country:</strong> Doha, Qatar</div>
+    </div>
+    <div class="buttons"><a class="btn primary" href="mailto:rasheeth.mca@gmail.com">Email Me</a><a class="btn ghost" href="https://www.linkedin.com/in/abdulrasheeth/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="container">© 2026 Abdul Rasheeth Jagafar Ali · Career Portfolio</div></footer>
+</body>
+</html>
